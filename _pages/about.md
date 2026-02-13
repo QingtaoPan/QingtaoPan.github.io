@@ -30,8 +30,8 @@ I'm currently a PhD student in the department of computer and data science, Case
 ## Conference Reviewer:
 ICMl, MICCAI
 ## Journal Reviewer:
-Information Fusion
-Biomedical Signal Processing and Control
-iScience
-Applied Soft Computing
+- Information Fusion
+- Biomedical Signal Processing and Control
+- iScience
+- Applied Soft Computing
 
