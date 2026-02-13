@@ -28,7 +28,7 @@ I'm currently a PhD student in the department of computer and data science, Case
 
 # 💻 Services
 ## Conference Reviewer:
-ICMl, MICCAI
+ICML, MICCAI
 ## Journal Reviewer:
 - Information Fusion
 - Biomedical Signal Processing and Control
