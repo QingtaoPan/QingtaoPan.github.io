@@ -1,2 +1,10 @@
-I'm currently a PhD student in the department of computer and data science, Case Western Reserve University, supervised by [Shuo Li](https://case.edu/engineering/about/faculty-and-staff-directory/shuo-li). My research interests lie in Multimodal Large Language Models, Efficient Inferencing, Diffusion Models, and Medical Imaging.
+{% include_relative includes/intro.md %}
+
+{% include_relative includes/news.md %}
+
+{% include_relative includes/pub.md %}
+
+{% include_relative includes/honers.md %}
+
+{% include_relative includes/others.md %}
 
