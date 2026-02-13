@@ -17,7 +17,7 @@ I'm currently a PhD student in the department of computer and data science, Case
 - ``MICCAI 2025`` [PCR-MIL: Phenotype Clustering Reinforced Multiple Instance Learning for Whole Slide Image Classification](https://link.springer.com/chapter/10.1007/978-3-032-04984-1_38), Jingjiao Lou, **Qingtao Pan**, Qing Yang, Bing Ji.
 
 ## Reinforcement Learning
-- ``arXiv 2025`` [PCR-MIL: Phenotype Clustering Reinforced Multiple Instance Learning for Whole Slide Image Classification](https://arxiv.org/abs/2510.01833), Zhihao Dou,..., **Qingtao Pan**, et al.
+- ``arXiv 2025`` [Plan Then Action: High-Level Planning Guidance Reinforcement Learning for LLM Reasoning](https://arxiv.org/abs/2510.01833), Zhihao Dou,..., **Qingtao Pan**, et al.
 - ``INS`` [Long-short-view aware multi-agent reinforcement learning for signal snippet distillation in delirium movement detection](https://www.sciencedirect.com/science/article/pii/S0020025524008776), **Qingtao Pan**, Hao Wang, Jingjiao Lou, Yuyan Zhang, Bing Ji, Shuo Li.
 
 # 🎖 Honors and Awards
