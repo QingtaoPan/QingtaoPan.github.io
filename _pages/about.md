@@ -36,6 +36,5 @@ ICML, MICCAI
 - Applied Soft Computing
 
 <p>
-👀 Total Visits: <span id="busuanzi_value_site_pv"></span> <br>
 🧑 Visitors: <span id="busuanzi_value_site_uv"></span>
 </p>
