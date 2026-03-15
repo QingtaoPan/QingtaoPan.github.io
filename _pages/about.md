@@ -11,7 +11,7 @@ I'm currently a PhD student in the department of computer and data science, Case
 
 # 📝 Publications 
 ## Efficient MLLM
-- ``CVPR 2026 Findings`` [Frequency-Modulated Visual Restoration for Matryoshka Large Multimodal Models]([https://ieeexplore.ieee.org/abstract/document/11205876](https://arxiv.org/abs/2603.11220), **Qingtao Pan**, Zhihao Dou, Shuo Li.
+- ``CVPR 2026 Findings`` [Frequency-Modulated Visual Restoration for Matryoshka Large Multimodal Models](https://arxiv.org/abs/2603.11220), **Qingtao Pan**, Zhihao Dou, Shuo Li.
 
 ## Image Segmentation
 - ``IEEE TMI`` [EviVLM: When Evidential Learning Meets Vision Language Model for Medical Image Segmentation](https://ieeexplore.ieee.org/abstract/document/11205876), **Qingtao Pan**, Zhengrong Li, Guang Yang, Qing Yang, Bing Ji.
