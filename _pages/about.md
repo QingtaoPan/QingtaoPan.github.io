@@ -10,6 +10,8 @@ I'm currently a PhD student in the department of computer and data science, Case
 - *2024.06*: 🎉 One paper is accepted by INS
 
 # 📝 Publications 
+## Efficient MLLM
+- ``CVPR 2026 Findings`` [Frequency-Modulated Visual Restoration for Matryoshka Large Multimodal Models]([https://ieeexplore.ieee.org/abstract/document/11205876](https://arxiv.org/abs/2603.11220)), **Qingtao Pan**, Zhihao Dou, Shuo Li.
 ## Image Segmentation
 - ``IEEE TMI`` [EviVLM: When Evidential Learning Meets Vision Language Model for Medical Image Segmentation](https://ieeexplore.ieee.org/abstract/document/11205876), **Qingtao Pan**, Zhengrong Li, Guang Yang, Qing Yang, Bing Ji.
 - ``IEEE TMI`` [AMVLM: Alignment-Multiplicity Aware Vision-Language Model for Semi-Supervised Medical Image Segmentation](https://ieeexplore.ieee.org/abstract/document/11014494), **Qingtao Pan**, Zhengrong Li, Wenhao Qiao, Jingjiao Lou, Qing Yang, Guang Yang, Bing Ji.
