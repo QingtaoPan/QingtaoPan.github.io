@@ -35,6 +35,7 @@ I'm currently a PhD student in the department of computer and data science, Case
 ICML, NeurIPS, MICCAI
 ## Journal Reviewer:
 - Information Fusion
+- Pattern Recognition
 - Biomedical Signal Processing and Control
 - iScience
 - Applied Soft Computing
