@@ -11,7 +11,8 @@ I'm currently a PhD student in the department of computer and data science, Case
 
 # 📝 Publications 
 ## Efficient MLLM
-- ``CVPR 2026 Findings`` [Frequency-Modulated Visual Restoration for Matryoshka Large Multimodal Models](https://arxiv.org/abs/2603.11220), **Qingtao Pan**, Zhihao Dou, Shuo Li.
+- ``CVPR 2026 Findings`` [Frequency-Modulated Visual Restoration for Matryoshka Large Multimodal Models](https://arxiv.org/abs/2603.11220)
+- **Qingtao Pan**, Zhihao Dou, Shuo Li.
 
 ## LLM
 - ``CVPR 2026 Main`` [Conditional Factuality Controlled LLMs with Generalization Certificates via Conformal Sampling](https://arxiv.org/abs/2603.27403), Kai Ye, **Qingtao Pan**, Shuo Li.
