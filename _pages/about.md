@@ -1,7 +1,7 @@
 I'm currently a PhD student in the department of computer and data science, Case Western Reserve University, supervised by [Shuo Li](https://case.edu/engineering/about/faculty-and-staff-directory/shuo-li). My research interests lie in Multimodal Large Language Models, Efficient Inferencing, Diffusion Models, and Medical Imaging. Email: qingtaopan33@gmail.com
 
 # 🔥 News
-- *2026.02*: 🎉 One paper is accepted by ICML 2026
+- *2026.04*: 🎉 One paper is accepted by ICML 2026
 - *2026.02*: 🎉 Two papers are accepted by CVPR 2026
 - *2025.11*: 🎉 One paper is accepted by Neurocomputing
 - *2025.10*: 🎉 One paper is accepted by IEEE TMI
