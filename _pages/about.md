@@ -30,8 +30,9 @@ I'm currently a PhD student in the department of computer and data science, Case
 - ``MICCAI 2025`` [PCR-MIL: Phenotype Clustering Reinforced Multiple Instance Learning for Whole Slide Image Classification](https://link.springer.com/chapter/10.1007/978-3-032-04984-1_38), Jingjiao Lou, **Qingtao Pan**, Qing Yang, Bing Ji.
 
 # 🎖 Honors and Awards
-- *2024.11* National Scholarship (Top 1%)
+- *2026.06* CVPR Compute Transparency Champion Award
 - *2025.05* Outstanding Graduate of Shandong University
+- *2024.11* National Scholarship (Top 1%)
 - *2022.11* National Endeavor Fellowship (Undergraduate)
 - *2019.11* National Endeavor Fellowship (Undergraduate)
 
