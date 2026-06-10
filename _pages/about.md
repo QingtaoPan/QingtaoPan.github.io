@@ -1,4 +1,4 @@
-I'm currently a PhD student in the department of computer and data science, Case Western Reserve University. My research interests lie in Multimodal Large Language Models, Efficient Inferencing, Diffusion Models, and Medical Imaging. Email: qingtaopan33@gmail.com
+I'm currently a 1st-year PhD student in the department of computer and data science, Case Western Reserve University, advised by Prof. [Shuo Li](https://case.edu/bme/people/primary-faculty/shuo-li). My research interests lie in Multimodal Large Language Models, Efficient Inferencing, Diffusion Models, and Medical Imaging. Email: qingtaopan33@gmail.com
 
 # 🔥 News
 - *2026.04*: 🎉 One paper is accepted by ICML 2026
