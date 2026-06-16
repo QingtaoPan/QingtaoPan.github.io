@@ -21,6 +21,7 @@ I'm currently a 1st-year PhD student in the department of computer and data scie
 - ``JKSUCIS`` [ER-MedRAG: A multi-agent reinforcement learning framework for reliable clinical retrieval-augmented reasoning](https://link.springer.com/content/pdf/10.1007/s44443-026-00825-0_reference.pdf), Pengyan Shi, Yuhan Shui, Ruohan JIn, **Qingtao Pan**.
 
 ## VLM for Image Segmentation
+- ``MICCAI 2026`` [CPS4: Class Prompt driven Semi-Supervised Spine Segmentation with Class-specific Consistency Constraint](https://arxiv.org/abs/2606.15802), **Qingtao Pan**, Hongzan Sun, Bing Ji, Shuo Li.
 - ``IEEE TMI`` [EviVLM: When Evidential Learning Meets Vision Language Model for Medical Image Segmentation](https://ieeexplore.ieee.org/abstract/document/11205876), **Qingtao Pan**, Zhengrong Li, Guang Yang, Qing Yang, Bing Ji.
 - ``IEEE TMI`` [AMVLM: Alignment-Multiplicity Aware Vision-Language Model for Semi-Supervised Medical Image Segmentation](https://ieeexplore.ieee.org/abstract/document/11014494), **Qingtao Pan**, Zhengrong Li, Wenhao Qiao, Jingjiao Lou, Qing Yang, Guang Yang, Bing Ji.
 - ``AAAI 2025`` [DuSSS: Dual Semantic Similarity-Supervised Vision-Language Model for Semi-Supervised Medical Image Segmentation](https://ojs.aaai.org/index.php/AAAI/article/view/32674), **Qingtao Pan**, Wenhao Qiao, Jingjiao Lou, Bing Ji, Shuo Li.
