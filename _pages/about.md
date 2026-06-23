@@ -24,7 +24,7 @@ I'm currently a 1st-year PhD student in the department of computer and data scie
 - ``CVPR 2026 Main`` [Conditional Factuality Controlled LLMs with Generalization Certificates via Conformal Sampling](https://arxiv.org/abs/2603.27403), Kai Ye, **Qingtao Pan**, Shuo Li.
 - ``ICML 2026`` [Plan Then Action: High-Level Planning Guidance Reinforcement Learning for LLM Reasoning](https://arxiv.org/abs/2510.01833), Zhihao Dou,..., **Qingtao Pan**, et al.
 - ``JKSUCIS`` [ER-MedRAG: A multi-agent reinforcement learning framework for reliable clinical retrieval-augmented reasoning](https://link.springer.com/content/pdf/10.1007/s44443-026-00825-0_reference.pdf), Pengyan Shi, Yuhan Shui, Ruohan JIn, **Qingtao Pan**.
-- - ``arXiv 2026`` [STRIDE: Strategic Trajectory Reasoning via Discriminative Estimation for Verifiable Reinforcement Learning](https://arxiv.org/abs/2606.15866), Qinjian Zhao,..., **Qingtao Pan**, et al.
+- ``arXiv 2026`` [STRIDE: Strategic Trajectory Reasoning via Discriminative Estimation for Verifiable Reinforcement Learning](https://arxiv.org/abs/2606.15866), Qinjian Zhao,..., **Qingtao Pan**, et al.
 
 ## VLM for Image Segmentation
 - ``MICCAI 2026`` [CPS4: Class Prompt driven Semi-Supervised Spine Segmentation with Class-specific Consistency Constraint](https://arxiv.org/abs/2606.15802), **Qingtao Pan**, Hongzan Sun, Bing Ji, Shuo Li.
