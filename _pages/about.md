@@ -17,10 +17,14 @@ I'm currently a 1st-year PhD student in the department of computer and data scie
 ## Efficient MLLM
 - ``CVPR 2026 Findings`` [Frequency-Modulated Visual Restoration for Matryoshka Large Multimodal Models](https://arxiv.org/abs/2603.11220), **Qingtao Pan**, Zhihao Dou, Shuo Li.
 
-## LLM
+## T2I Diffusion
+- ``ECCV 2026`` [ELDiff: When Evidential Learning Meets Text-to-Image Diffusion](https://arxiv.org/abs/2606.20924), **Qingtao Pan**, Kai Ye, Zhihao Dou, Bing Ji, Shuo Li.
+
+## LLM Reasoning
 - ``CVPR 2026 Main`` [Conditional Factuality Controlled LLMs with Generalization Certificates via Conformal Sampling](https://arxiv.org/abs/2603.27403), Kai Ye, **Qingtao Pan**, Shuo Li.
 - ``ICML 2026`` [Plan Then Action: High-Level Planning Guidance Reinforcement Learning for LLM Reasoning](https://arxiv.org/abs/2510.01833), Zhihao Dou,..., **Qingtao Pan**, et al.
 - ``JKSUCIS`` [ER-MedRAG: A multi-agent reinforcement learning framework for reliable clinical retrieval-augmented reasoning](https://link.springer.com/content/pdf/10.1007/s44443-026-00825-0_reference.pdf), Pengyan Shi, Yuhan Shui, Ruohan JIn, **Qingtao Pan**.
+- - ``arXiv 2026`` [STRIDE: Strategic Trajectory Reasoning via Discriminative Estimation for Verifiable Reinforcement Learning](https://arxiv.org/abs/2606.15866), Qinjian Zhao,..., **Qingtao Pan**, et al.
 
 ## VLM for Image Segmentation
 - ``MICCAI 2026`` [CPS4: Class Prompt driven Semi-Supervised Spine Segmentation with Class-specific Consistency Constraint](https://arxiv.org/abs/2606.15802), **Qingtao Pan**, Hongzan Sun, Bing Ji, Shuo Li.
@@ -32,9 +36,11 @@ I'm currently a 1st-year PhD student in the department of computer and data scie
 ## Others
 - ``INS`` [Long-short-view aware multi-agent reinforcement learning for signal snippet distillation in delirium movement detection](https://www.sciencedirect.com/science/article/pii/S0020025524008776), **Qingtao Pan**, Hao Wang, Jingjiao Lou, Yuyan Zhang, Bing Ji, Shuo Li.
 - ``MICCAI 2025`` [PCR-MIL: Phenotype Clustering Reinforced Multiple Instance Learning for Whole Slide Image Classification](https://link.springer.com/chapter/10.1007/978-3-032-04984-1_38), Jingjiao Lou, **Qingtao Pan**, Qing Yang, Bing Ji.
+- ``IEEE TCSVT`` [ICMIL: An Interactive Contrastive Multiple Instance Learning Framework Using Foundation Model Features for Histopathology Image Classification], Jingjiao Lou, **Qingtao Pan**, Qing Yang, Guang Yang, Bing Ji, Shuo Li.
+
 
 # 🎖 Honors and Awards
-- *2026.06* CVPR Compute Transparency Champion Award (Paper: FMVR)
+- *2026.06* CVPR Compute Transparency Champion Award (Paper: [FMVR](https://arxiv.org/abs/2603.11220))
 - *2025.05* Outstanding Graduate of Shandong University
 - *2024.11* National Scholarship (Top 1%)
 - *2022.11* National Endeavor Fellowship (Undergraduate)
