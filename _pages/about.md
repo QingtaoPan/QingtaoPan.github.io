@@ -36,7 +36,7 @@ I'm currently a 1st-year PhD student in the department of computer and data scie
 ## Others
 - ``INS`` [Long-short-view aware multi-agent reinforcement learning for signal snippet distillation in delirium movement detection](https://www.sciencedirect.com/science/article/pii/S0020025524008776), **Qingtao Pan**, Hao Wang, Jingjiao Lou, Yuyan Zhang, Bing Ji, Shuo Li.
 - ``MICCAI 2025`` [PCR-MIL: Phenotype Clustering Reinforced Multiple Instance Learning for Whole Slide Image Classification](https://link.springer.com/chapter/10.1007/978-3-032-04984-1_38), Jingjiao Lou, **Qingtao Pan**, Qing Yang, Bing Ji.
-- ``IEEE TCSVT`` [ICMIL: An Interactive Contrastive Multiple Instance Learning Framework Using Foundation Model Features for Histopathology Image Classification], Jingjiao Lou, **Qingtao Pan**, Qing Yang, Guang Yang, Bing Ji, Shuo Li.
+- ``IEEE TCSVT`` [ICMIL: An Interactive Contrastive Multiple Instance Learning Framework Using Foundation Model Features for Histopathology Image Classification](https://ieeexplore.ieee.org/document/11586083), Jingjiao Lou, **Qingtao Pan**, Qing Yang, Guang Yang, Bing Ji, Shuo Li.
 
 
 # 🎖 Honors and Awards
