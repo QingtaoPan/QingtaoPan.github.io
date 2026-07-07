@@ -1,17 +1,21 @@
 I'm currently a 1st-year PhD student in the department of computer and data science, Case Western Reserve University, advised by Prof. [Shuo Li](https://case.edu/bme/people/primary-faculty/shuo-li). My research interests lie in Multimodal Large Language Models, Efficient Inferencing, Diffusion Models, and Medical Imaging. Email: qingtaopan33@gmail.com
 
 # 🔥 News
-- *2026.06*: 🎉 One paper is accepted by IEEE TCSVT
-- *2026.06*: 🎉 One paper is accepted by ECCV 2026
-- *2026.06*: 🎉 One paper is accepted by MICCAI 2026
-- *2026.04*: 🎉 One paper is accepted by ICML 2026
-- *2026.02*: 🎉 Two papers are accepted by CVPR 2026
-- *2025.11*: 🎉 One paper is accepted by Neurocomputing
-- *2025.10*: 🎉 One paper is accepted by IEEE TMI
-- *2025.06*: 🎉 One paper is accepted by MICCAI 2025
-- *2025.05*: 🎉 One paper is accepted by IEEE TMI
-- *2024.11*: 🎉 One paper is accepted by AAAI 2025
-- *2024.06*: 🎉 One paper is accepted by INS
+<div style="height: 180px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
+
+- *2026.06*: 🎉 One paper is accepted by IEEE TCSVT  
+- *2026.06*: 🎉 One paper is accepted by ECCV 2026  
+- *2026.06*: 🎉 One paper is accepted by MICCAI 2026  
+- *2026.04*: 🎉 One paper is accepted by ICML 2026  
+- *2026.02*: 🎉 Two papers are accepted by CVPR 2026  
+- *2025.11*: 🎉 One paper is accepted by Neurocomputing  
+- *2025.10*: 🎉 One paper is accepted by IEEE TMI  
+- *2025.06*: 🎉 One paper is accepted by MICCAI 2025  
+- *2025.05*: 🎉 One paper is accepted by IEEE TMI  
+- *2024.11*: 🎉 One paper is accepted by AAAI 2025  
+- *2024.06*: 🎉 One paper is accepted by INS  
+
+</div>
 
 # 📝 Publications 
 ## Efficient MLLM
