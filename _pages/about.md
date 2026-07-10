@@ -22,6 +22,8 @@ I'm currently a 1st-year PhD student in the department of computer and data scie
 # 📝 Publications 
 ## Efficient MLLM
 - ``CVPR 2026 Findings`` [Frequency-Modulated Visual Restoration for Matryoshka Large Multimodal Models](https://arxiv.org/abs/2603.11220), **Qingtao Pan**, Zhihao Dou, Shuo Li.
+- ``Under Review`` [Partition-then-Prune: Accelerating VLLMs via Anisotropic Octree Partitioning and Sub-Supermodular Pruning], **Qingtao Pan**, Shuo Li.
+- ``Under Review`` [DiCoPruner: Balancing Vision Token Diversity and Semantic Completeness in MLLM Token Pruning], **Qingtao Pan**, Shuo Li.
 
 ## T2I Diffusion
 - ``ECCV 2026`` [ELDiff: When Evidential Learning Meets Text-to-Image Diffusion](https://arxiv.org/abs/2606.20924), **Qingtao Pan**, Kai Ye, Zhihao Dou, Bing Ji, Shuo Li.
