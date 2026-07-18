@@ -60,6 +60,7 @@ ICML, NeurIPS, MICCAI
 ## Journal Reviewer:
 - Information Fusion
 - Pattern Recognition
+- IEEE Journal of Biomedical and Health Informatics
 - Biomedical Signal Processing and Control
 - iScience
 - Applied Soft Computing
