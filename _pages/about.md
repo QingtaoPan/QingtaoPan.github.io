@@ -7,7 +7,7 @@ I'm currently a 1st-year PhD student in the department of computer and data scie
   <li><em>2026.06</em>: 🎉 One paper is accepted by IEEE TCSVT</li>
   <li><em>2026.06</em>: 🎉 One paper is accepted by ECCV 2026</li>
   <li><em>2026.06</em>: 🎉 One paper is accepted by MICCAI 2026</li>
-  <li><em>2026.06</em>: 🎉 Thrilled that our [FMVR](https://arxiv.org/abs/2603.11220) received the CVPR 2026 Compute Transparency Champion Award.
+  <li><em>2026.06</em>: 🎉 Thrilled to receive the CVPR 2026 Compute Transparency Champion Award.
   <li><em>2026.04</em>: 🎉 One paper is accepted by ICML 2026</li>
   <li><em>2026.02</em>: 🎉 Two papers are accepted by CVPR 2026</li>
   <li><em>2025.11</em>: 🎉 One paper is accepted by Neurocomputing</li>
