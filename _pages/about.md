@@ -62,6 +62,7 @@ ICML, NeurIPS, MICCAI
 - Information Fusion
 - Pattern Recognition
 - IEEE Journal of Biomedical and Health Informatics
+- Knowledge-Based Systems
 - Biomedical Signal Processing and Control
 - iScience
 - Applied Soft Computing
