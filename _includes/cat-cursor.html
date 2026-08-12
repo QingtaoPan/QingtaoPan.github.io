@@ -1,0 +1,22 @@
+<div
+  id="site-cat"
+  class="site-cat is-idle"
+  aria-hidden="true"
+  style="
+    --cat-idle: url('{{ '/assets/images/cat-cursor/idle.png' | relative_url }}');
+    --cat-run: url('{{ '/assets/images/cat-cursor/run.png' | relative_url }}');
+    --cat-attack: url('{{ '/assets/images/cat-cursor/attack.png' | relative_url }}');
+  "
+>
+  <div id="site-cat-sprite" aria-hidden="true">
+    <span class="site-cat-sheet site-cat-sheet--idle"></span>
+    <span class="site-cat-sheet site-cat-sheet--run"></span>
+    <span class="site-cat-sheet site-cat-sheet--attack"></span>
+  </div>
+</div>
+<span
+  id="site-cat-fish"
+  aria-hidden="true"
+  style="--cat-fish: url('{{ '/assets/images/cat-cursor/fish.png' | relative_url }}');"
+></span>
+<script src="{{ '/assets/js/cat-cursor.js' | relative_url }}"></script>
