@@ -1,0 +1,17 @@
+<div
+  class="cat-cursor"
+  id="cat-cursor"
+  aria-hidden="true"
+  data-facing="left"
+  data-state="idle"
+  style="
+    --cat-idle: url('{{ '/assets/images/cat-cursor/idle.png' | relative_url }}');
+    --cat-walk: url('{{ '/assets/images/cat-cursor/walk.png' | relative_url }}');
+    --cat-run: url('{{ '/assets/images/cat-cursor/run.png' | relative_url }}');
+    --cat-attack: url('{{ '/assets/images/cat-cursor/attack.png' | relative_url }}');
+  "
+>
+  <span class="cat-cursor__click" aria-hidden="true"></span>
+  <span class="cat-cursor__sprite" aria-hidden="true"></span>
+</div>
+<script src="{{ '/assets/js/cat-cursor.js' | relative_url }}"></script>
