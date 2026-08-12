@@ -1,0 +1,140 @@
+/* Click an empty area: the cat runs there, then plays its full attack sequence. */
+#site-cat {
+  --cat-w: 160px;
+  --cat-h: 128px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: var(--cat-w);
+  height: var(--cat-h);
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate3d(calc(100vw - 152px), calc(100vh - 148px), 0);
+  transition: opacity 280ms ease;
+  filter: drop-shadow(0 3px 3px rgba(25, 30, 40, 0.2));
+  will-change: transform;
+}
+
+#site-cat.is-ready {
+  visibility: visible;
+  opacity: 1;
+}
+
+#site-cat-sprite,
+.site-cat-sheet {
+  position: absolute;
+  inset: 0;
+  width: var(--cat-w);
+  height: var(--cat-h);
+}
+
+#site-cat-sprite {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.site-cat-sheet {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.site-cat-sheet--idle {
+  background-image: var(--cat-idle);
+  background-size: calc(var(--cat-w) * 8) var(--cat-h);
+  animation: site-cat-idle 1.1s steps(8) infinite;
+}
+
+.site-cat-sheet--run {
+  background-image: var(--cat-run);
+  background-size: calc(var(--cat-w) * 8) var(--cat-h);
+  animation: site-cat-run 480ms steps(8) infinite;
+}
+
+.site-cat-sheet--attack {
+  background-image: var(--cat-attack);
+  background-size: calc(var(--cat-w) * 8) var(--cat-h);
+  animation: site-cat-attack 620ms steps(8) 1 forwards;
+}
+
+#site-cat.is-idle .site-cat-sheet--idle,
+#site-cat.is-run .site-cat-sheet--run,
+#site-cat.is-attack .site-cat-sheet--attack {
+  opacity: 1;
+}
+
+#site-cat-fish {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1051;
+  width: 42px;
+  height: 42px;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  background: var(--cat-fish) center / contain no-repeat;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  filter: drop-shadow(0 2px 2px rgba(25, 30, 40, 0.2));
+  transform: scale(0.5);
+  transition: opacity 150ms ease, transform 150ms ease;
+  transform-origin: 50% 50%;
+}
+
+#site-cat-fish.is-visible {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+
+#site-cat-fish.is-eaten {
+  visibility: visible;
+  opacity: 0;
+  transform: scale(0.12) rotate(-12deg);
+  transition-duration: 220ms;
+}
+
+@keyframes site-cat-idle {
+  to { background-position-x: calc(var(--cat-w) * -8); }
+}
+
+@keyframes site-cat-run {
+  to { background-position-x: calc(var(--cat-w) * -8); }
+}
+
+@keyframes site-cat-attack {
+  to { background-position-x: calc(var(--cat-w) * -8); }
+}
+
+@media (max-width: 749px) {
+  #site-cat {
+    --cat-w: 120px;
+    --cat-h: 96px;
+  }
+
+  #site-cat-fish {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #site-cat,
+  #site-cat-fish {
+    display: none !important;
+  }
+}
+
+@media print {
+  #site-cat,
+  #site-cat-fish {
+    display: none !important;
+  }
+}
