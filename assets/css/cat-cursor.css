@@ -1,0 +1,117 @@
+.cat-cursor {
+  --cat-scale: 1.45;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2147483000;
+  display: none;
+  width: 64px;
+  height: 64px;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate3d(calc(100vw - 96px), calc(100vh - 88px), 0);
+  transition: opacity 160ms ease;
+  will-change: transform;
+}
+
+@media (any-pointer: fine) {
+  .cat-cursor {
+    display: block;
+  }
+}
+
+.cat-cursor[data-ready="true"] {
+  opacity: 1;
+}
+
+.cat-cursor__sprite {
+  position: absolute;
+  inset: 0;
+  width: 64px;
+  height: 64px;
+  background-image: var(--cat-idle);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto 64px;
+  image-rendering: pixelated;
+  transform: scale(var(--cat-scale));
+  transform-origin: 50% 65%;
+  animation: cat-cursor-idle 900ms steps(10) infinite;
+  filter: drop-shadow(0 3px 2px rgba(25, 30, 40, 0.2));
+}
+
+.cat-cursor[data-facing="right"] .cat-cursor__sprite {
+  transform: scale(var(--cat-scale)) scaleX(-1);
+}
+
+.cat-cursor[data-state="walk"] .cat-cursor__sprite {
+  background-image: var(--cat-walk);
+  animation: cat-cursor-walk 720ms steps(15) infinite;
+}
+
+.cat-cursor[data-state="run"] .cat-cursor__sprite {
+  background-image: var(--cat-run);
+  animation: cat-cursor-run 430ms steps(10) infinite;
+}
+
+.cat-cursor.is-attacking .cat-cursor__sprite {
+  background-image: var(--cat-attack);
+  animation: cat-cursor-attack 560ms steps(10) 1;
+}
+
+.cat-cursor__click {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(231, 124, 69, 0.78);
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.cat-cursor.is-attacking .cat-cursor__click {
+  animation: cat-cursor-click 420ms ease-out 1;
+}
+
+@keyframes cat-cursor-idle {
+  to { background-position-x: -640px; }
+}
+
+@keyframes cat-cursor-walk {
+  to { background-position-x: -960px; }
+}
+
+@keyframes cat-cursor-run {
+  to { background-position-x: -640px; }
+}
+
+@keyframes cat-cursor-attack {
+  to { background-position-x: -640px; }
+}
+
+@keyframes cat-cursor-click {
+  0% {
+    opacity: 0.9;
+    transform: scale(0.35);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.4);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cat-cursor,
+  .cat-cursor__sprite,
+  .cat-cursor__click {
+    transition: none;
+    animation: none !important;
+  }
+}
+
+@media print {
+  .cat-cursor {
+    display: none !important;
+  }
+}
