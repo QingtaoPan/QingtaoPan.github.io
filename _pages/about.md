@@ -67,7 +67,9 @@ ICML, NeurIPS, MICCAI
 
 
 <p>
-🧑 Visitors: <span id="busuanzi_site_uv"></span>
+  🧑
+  <img
+    src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Visitors&color=0e75b6&style=flat"
+    alt="Visitors"
+  />
 </p>
-
-<script defer src="https://busuanzi.kipfel.link/js"></script>
