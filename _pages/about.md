@@ -67,8 +67,31 @@ ICML, NeurIPS, MICCAI
 
 
 <p>
-🧑 Visitors: <span id="busuanzi_site_uv">Loading...</span>
+🧑 Visitors: <span id="busuanzi_site_uv">450</span>
 </p>
+
+<script>
+(() => {
+  const counter = document.getElementById("busuanzi_site_uv");
+  const initialCount = 450;
+
+  const observer = new MutationObserver(() => {
+    const value = counter.textContent.replace(/,/g, "").trim();
+
+    if (/^\d+$/.test(value)) {
+      observer.disconnect();
+      counter.textContent =
+        (Number(value) + initialCount).toLocaleString("en-US");
+    }
+  });
+
+  observer.observe(counter, {
+    childList: true,
+    characterData: true,
+    subtree: true
+  });
+})();
+</script>
 
 <script
   defer
