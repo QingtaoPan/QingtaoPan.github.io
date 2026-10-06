@@ -67,7 +67,7 @@ ICML, NeurIPS, MICCAI
 
 
 <p>
-🧑 Visitors: <span id="busuanzi_value_site_uv"></span>
+🧑 Visitors: <span id="busuanzi_site_uv"></span>
 </p>
 
-<script async src="https://busuanzi.icodeq.com/busuanzi.pure.mini.js"></script>
+<script defer src="https://busuanzi.kipfel.link/js"></script>
