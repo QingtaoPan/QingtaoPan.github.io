@@ -67,7 +67,7 @@ ICML2026, NeurIPS2026, ICLR2026, MICCAI2024/2026
 
 
 <p>
-  📄 Page views: <span id="busuanzi_site_pv">490</span>
+  🧑 Visitors: <span id="busuanzi_site_pv">490</span>
 </p>
 
 <script>
