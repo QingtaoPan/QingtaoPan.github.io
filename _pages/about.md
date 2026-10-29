@@ -68,31 +68,28 @@ ICML2026, NeurIPS2026, ICLR2026, MICCAI2024/2026
 
 
 
+
 <p>
-  🧑 Page views:
-  <span id="site-pv-display" title="统计尚未更新">490</span>
+  🧑:
+  <span id="pageviews-display" title="统计尚未更新">490</span>
 </p>
 
-<!-- 接收不蒜子的原始数据 -->
 <span hidden aria-hidden="true">
-  <span id="busuanzi_site_pv"></span>
+  <span id="vercount_value_site_pv"></span>
 </span>
 
 <script>
 (() => {
-  const display = document.getElementById("site-pv-display");
-  const source = document.getElementById("busuanzi_site_pv");
+  const display = document.getElementById("pageviews-display");
+  const source = document.getElementById("vercount_value_site_pv");
   const initialCount = 490;
-  const cacheKey = "busuanzi-site-pv-raw-v1";
+  const cacheKey = "vercount-site-pv-raw";
 
-  function update(rawValue, fromCache = false) {
-    if (rawValue === null) return;
-
-    const text = String(rawValue).replace(/,/g, "").trim();
+  function render(raw, fromCache = false) {
+    const text = String(raw ?? "").replace(/,/g, "").trim();
     if (!/^\d+$/.test(text)) return;
 
-    const rawCount = Number(text);
-    const total = rawCount + initialCount;
+    const total = Number(text) + initialCount;
     if (!Number.isSafeInteger(total)) return;
 
     display.textContent = total.toLocaleString("en-US");
@@ -100,22 +97,19 @@ ICML2026, NeurIPS2026, ICLR2026, MICCAI2024/2026
       ? "上次成功获取的浏览量（本浏览器缓存）"
       : "最新获取的全站浏览量";
 
-    // 缓存原始值，避免重复加上 490
     if (!fromCache) {
       try {
-        localStorage.setItem(cacheKey, String(rawCount));
+        localStorage.setItem(cacheKey, text);
       } catch {}
     }
   }
 
-  // 优先显示缓存；浏览器禁用存储时仍可正常显示
   try {
-    update(localStorage.getItem(cacheKey), true);
+    render(localStorage.getItem(cacheKey), true);
   } catch {}
 
-  // 持续监听，只修改独立的显示元素
   const observer = new MutationObserver(() => {
-    update(source.textContent);
+    render(source.textContent);
   });
 
   observer.observe(source, {
@@ -124,11 +118,8 @@ ICML2026, NeurIPS2026, ICLR2026, MICCAI2024/2026
     subtree: true
   });
 
-  update(source.textContent);
+  render(source.textContent);
 })();
 </script>
 
-<script
-  defer
-  src="https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js">
-</script>
+<script defer src="https://events.vercount.one/js"></script>
