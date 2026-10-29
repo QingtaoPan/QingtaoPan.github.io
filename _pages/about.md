@@ -66,30 +66,65 @@ ICML2026, NeurIPS2026, ICLR2026, MICCAI2024/2026
 - Applied Soft Computing
 
 
+
+
 <p>
-  🧑 Visitors: <span id="busuanzi_site_pv">490</span>
+  🧑 Page views:
+  <span id="site-pv-display" title="统计尚未更新">490</span>
 </p>
+
+<!-- 接收不蒜子的原始数据 -->
+<span hidden aria-hidden="true">
+  <span id="busuanzi_site_pv"></span>
+</span>
 
 <script>
 (() => {
-  const counter = document.getElementById("busuanzi_site_pv");
+  const display = document.getElementById("site-pv-display");
+  const source = document.getElementById("busuanzi_site_pv");
   const initialCount = 490;
+  const cacheKey = "busuanzi-site-pv-raw-v1";
 
-  const observer = new MutationObserver(() => {
-    const value = counter.textContent.replace(/,/g, "").trim();
+  function update(rawValue, fromCache = false) {
+    if (rawValue === null) return;
 
-    if (/^\d+$/.test(value)) {
-      observer.disconnect();
-      counter.textContent =
-        (Number(value) + initialCount).toLocaleString("en-US");
+    const text = String(rawValue).replace(/,/g, "").trim();
+    if (!/^\d+$/.test(text)) return;
+
+    const rawCount = Number(text);
+    const total = rawCount + initialCount;
+    if (!Number.isSafeInteger(total)) return;
+
+    display.textContent = total.toLocaleString("en-US");
+    display.title = fromCache
+      ? "上次成功获取的浏览量（本浏览器缓存）"
+      : "最新获取的全站浏览量";
+
+    // 缓存原始值，避免重复加上 490
+    if (!fromCache) {
+      try {
+        localStorage.setItem(cacheKey, String(rawCount));
+      } catch {}
     }
+  }
+
+  // 优先显示缓存；浏览器禁用存储时仍可正常显示
+  try {
+    update(localStorage.getItem(cacheKey), true);
+  } catch {}
+
+  // 持续监听，只修改独立的显示元素
+  const observer = new MutationObserver(() => {
+    update(source.textContent);
   });
 
-  observer.observe(counter, {
+  observer.observe(source, {
     childList: true,
     characterData: true,
     subtree: true
   });
+
+  update(source.textContent);
 })();
 </script>
 
