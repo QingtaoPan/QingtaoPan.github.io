@@ -50,8 +50,6 @@ I'm currently a 2nd-year PhD student in the department of computer and data scie
 - *2026.06* CVPR Compute Transparency Champion Award (Paper: [FMVR](https://arxiv.org/abs/2603.11220))
 - *2025.05* Outstanding Graduate of Shandong University
 - *2024.11* National Scholarship (Top 1%)
-- *2022.11* National Endeavor Fellowship (Undergraduate)
-- *2019.11* National Endeavor Fellowship (Undergraduate)
 
 # 💻 Services
 ## Conference Reviewer:
