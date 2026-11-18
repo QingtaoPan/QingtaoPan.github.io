@@ -4,8 +4,8 @@ I'm currently a 2nd-year PhD student in the department of computer and data scie
 <div style="height: 180px; overflow-y: scroll; border: 1px solid #d0d7de; padding: 10px 16px; border-radius: 8px;">
 
 <ul>
-  <li><em>2026.06</em>: 🎉 One paper is accepted by IEEE TMM</li>
-  <li><em>2026.06</em>: 🎉 One paper is accepted by IEEE EACL Findings</li>
+  <li><em>2026.11</em>: 🎉 One paper is accepted by IEEE TMM</li>
+  <li><em>2026.11</em>: 🎉 One paper is accepted by IEEE EACL Findings</li>
   <li><em>2026.06</em>: 🎉 One paper is accepted by IEEE TCSVT</li>
   <li><em>2026.06</em>: 🎉 One paper is accepted by ECCV 2026</li>
   <li><em>2026.06</em>: 🎉 One paper is accepted by MICCAI 2026</li>
