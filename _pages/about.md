@@ -55,7 +55,7 @@ I'm currently a 2nd-year PhD student in the department of computer and data scie
 
 # 💻 Services
 ## Conference Reviewer:
-ICML2026, NeurIPS2026, ICLR2026, MICCAI2024/2026
+ICML2026, NeurIPS2026, ICLR2026, CVPR2027, ACL2027, MICCAI2024/2026
 ## Journal Reviewer:
 - Information Fusion
 - Pattern Recognition
