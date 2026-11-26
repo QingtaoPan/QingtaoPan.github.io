@@ -91,5 +91,5 @@ section { margin-bottom:32px; }
 .figure-link { display: block; width: 100%; }
 .figure-link:hover img { opacity: .9; }
 .pub-card-body {
-    padding-top: 25px;
+    align-self: center;
 }
