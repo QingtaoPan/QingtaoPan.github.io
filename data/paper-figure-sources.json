@@ -1,0 +1,540 @@
+{
+  "figures": [
+    {
+      "title": "CURIO: Curiosity-Driven Test-Time Learning for Open-Ended Discovery",
+      "asset": "images/papers/curio.webp",
+      "source": "https://arxiv.org/pdf/2610.04851",
+      "page": 3,
+      "figure_caption": "Figure 2: Overview of CURIO. A policy expands archive parents into rollouts. The ICWM learns\ntoken-level transitions in encoded policy hidden states, and its prediction residual informs the curiosity\nbonus. The signal is retained at sampled tokens outside the policy’s top-k choices and combined with\nthe task coefficient. The states st, st`1 and action at are token-level features and embeddings. The\ndiagram is schematic; Equations (5)–(12) specify the representations, normalization, and masking.",
+      "crop_pdf_points": [
+        35,
+        70.38827514648438,
+        577,
+        189.172119140625
+      ],
+      "pdf_sha256": "0c9158c9ebad1b406a5728747228a437130cf41a4314a7e8f14b6e78267c957f",
+      "width": 813,
+      "height": 226
+    },
+    {
+      "title": "LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers",
+      "asset": "images/papers/llmrouter.webp",
+      "source": "https://arxiv.org/pdf/2608.06867",
+      "page": 6,
+      "figure_caption": "Figure 3: Architecture of LLMRouter. The system consists of six modules that support routing data\nconstruction, router implementation and training, inference, evaluation, and deployment.",
+      "crop_pdf_points": [
+        35,
+        74.05131530761719,
+        577,
+        246.6041259765625
+      ],
+      "pdf_sha256": "2da60abf0bc4c73ae95365850f92eca90e13c37d56822c1f98873901eb157878",
+      "width": 812,
+      "height": 329
+    },
+    {
+      "title": "Reinforcement Learning with Evolving Rubrics as Rewards for Audio Reasoning",
+      "asset": "images/papers/reinforcement-learning-with-evolving-rubrics-as-rewards-for-audio-reasoning.webp",
+      "source": "https://arxiv.org/pdf/2608.02831",
+      "page": 4,
+      "figure_caption": "Figure 2: Overview of AUDIORUBRICS. A rubric generator initializes audio-grounded rubrics for\neach question. At each step, the policy LALM samples rollouts, and the generator elicits refined\nrubrics from the rollouts and judges every rubric on them; non-discriminative rubrics are discarded.\nThe resulting rubric score is combined with the outcome reward for GRPO optimization.",
+      "crop_pdf_points": [
+        35,
+        70.47418975830078,
+        577,
+        208.3140106201172
+      ],
+      "pdf_sha256": "82f0f2ded3f77d6f1bc9f052a069ef7f6c427c6bc5919931ae5c2ef8eb01c70a",
+      "width": 813,
+      "height": 261
+    },
+    {
+      "title": "TSRouter: Dynamic Modality-Model Selection for Time Series Reasoning",
+      "asset": "images/papers/tsrouter.webp",
+      "source": "https://arxiv.org/pdf/2607.08940",
+      "page": 5,
+      "figure_caption": "Figure 2: Overview of TSROUTER. Each query is paired with all modality–model combina-\ntions to collect performance and cost, forming the training data. Then, TSROUTER builds a\nheterogeneous graph from task, query, modality, and model descriptions, learns node rep-\nresentations, and scores candidates to route queries to the optimal modality–model pair.",
+      "crop_pdf_points": [
+        35,
+        70.5430679321289,
+        577,
+        285.1343078613281
+      ],
+      "pdf_sha256": "527a1a0b8032f1c79376414ebab423750a5c47c2b35247c771b9edbc6ed6a899",
+      "width": 814,
+      "height": 413
+    },
+    {
+      "title": "ExpWeaver: LLM Agents Learn from Experience via Latent RAG",
+      "asset": "images/papers/expweaver.webp",
+      "source": "https://arxiv.org/pdf/2606.01041",
+      "page": 3,
+      "figure_caption": "Figure 1. Overview of ExpWeaver. The framework consists of three components: (1) Experience Bank: past experiences are",
+      "crop_pdf_points": [
+        35,
+        57.705116271972656,
+        577,
+        310.8959655761719
+      ],
+      "pdf_sha256": "5430a599c28f0a185231e6402fb26462f8e991e69a9c21041377809fbb34bba8",
+      "width": 997,
+      "height": 483
+    },
+    {
+      "title": "LRanker: LLM Ranker for Massive Candidates",
+      "asset": "images/papers/lranker.webp",
+      "source": "https://arxiv.org/pdf/2605.27810",
+      "page": 3,
+      "figure_caption": "Figure 1. Compared with existing LLM rankers on large-candidate tasks, LRanker incorporates advanced designs in both the",
+      "crop_pdf_points": [
+        35,
+        45.96168518066406,
+        577,
+        241.77798461914062
+      ],
+      "pdf_sha256": "3fd3858cc11ab83f9fdbf5e5f5669b49abf68306b0cffcb5fd628a2babbbe08e",
+      "width": 997,
+      "height": 393
+    },
+    {
+      "title": "RouteProfile: Graph-Based Profiling for Cold-Start LLM Routing",
+      "asset": "images/papers/routeprofile.webp",
+      "source": "https://arxiv.org/pdf/2605.00180",
+      "page": 4,
+      "figure_caption": "Figure 2: Overview of the RouteProfile. LLM profiles are constructed from coarse public signals comprising\nmodel family metadata, model description, reported benchmark scores, and benchmark domain information. The\ndesign choices are characterized along four dimensions: organizational form (flat/structured), representation type\n(text/embedding), aggregation depth (hop ∈{0, 1, 2, ...}), and learning configuration (training-free/trainable).\nExperiments are conducted across three representative routers to evaluate how profile design choices affect cold-start\nrouting performance across different routing settings. \"Aggre.\" and \"Config.\" denote Aggregation and Configuration.",
+      "crop_pdf_points": [
+        35,
+        59.3446044921875,
+        560.2760009765625,
+        298.7575378417969
+      ],
+      "pdf_sha256": "92a744367aaa1d41c4dc408f26ddb2940fa91e7860358e19e571b264db70c4cc",
+      "width": 929,
+      "height": 465
+    },
+    {
+      "title": "ExpHarness: Model-Agnostic Experience Learning through a Trainable Harness",
+      "asset": "images/papers/expharness.webp",
+      "source": "https://arxiv.org/pdf/2605.30712",
+      "page": 4,
+      "figure_caption": "Figure 1: Overview of ExpHarness. ExpHarness enables a frozen and replaceable executor\nLLM to improve through a learnable experience harness, consisting of a self-evolving experience\ngraph and a trainable retrieval copilot. For each incoming task xt, the task is embedded as hxt\nand passed to the retrieval copilot πt",
+      "crop_pdf_points": [
+        35,
+        63.34906005859375,
+        577,
+        316.64910888671875
+      ],
+      "pdf_sha256": "756e45fabfc4625ddf57b9b5fd734f4b131be0bafd822c2cb77dc0aa48a3adf6",
+      "width": 809,
+      "height": 496
+    },
+    {
+      "title": "ElasticMem: Latent Memory as a Learnable Resource for LLM Agents",
+      "asset": "images/papers/elasticmem.webp",
+      "source": "https://arxiv.org/pdf/2605.30690",
+      "page": 4,
+      "figure_caption": "Figure 1: Overview of ElasticMem. (1) Latent memory bank construction: a frozen offline\nencoder stores each memory chunk as a retrieval key and a latent content cache. (2) Elastic retrieval\nand allocation: the LoRA-adapted reasoner derives a query state to retrieve top-ranked chunks, and a\nbudget policy assigns each chunk a latent budget bj ∈{0, . . . , Bmax}. (3) Latent memory injection:\nthe selected cached states are projected into soft memory tokens for generation. (4) Reward-based\noptimization: GRPO trains the reasoner, budget policy, and projector with task rewards, while the\nmemory bank stays frozen. Sampling denotes training; evaluation uses argmax decisions.",
+      "crop_pdf_points": [
+        35,
+        69.86224365234375,
+        577,
+        393.3774108886719
+      ],
+      "pdf_sha256": "b885a4260d67f190e20db6b488bc6caa8ff2c89fba906d82a68eed0a3f84f091",
+      "width": 816,
+      "height": 633
+    },
+    {
+      "title": "T2J-BENCH: Benchmarking Coding Agents on Execution-Grounded PyTorch-to-JAX Repository Migration",
+      "asset": "images/papers/t2j-bench.webp",
+      "source": "https://arxiv.org/pdf/2605.29054",
+      "page": 3,
+      "figure_caption": "Figure 1 | Overall workflow of T2J-Bench. The pipeline begins by curating and filtering Source\nCodebases, retaining a subset of 15 model families that meet size (< 7B parameters) and bounded\nconfiguration constraints. In the Agent Conversion phase, an AI agent translates the source\nPyTorch repository (𝑅torch) into a JAX repository, guided by a minimum constraint prompt (𝑝★).\nFinally, the Evaluator conducts rigorous equivalence verification across three evaluation stages.",
+      "crop_pdf_points": [
+        35,
+        291.3534240722656,
+        560.2760009765625,
+        451.9722900390625
+      ],
+      "pdf_sha256": "14815ceab60af94c7b5b51793575dcf5b18f64c0eea7dd6f2f04771aa9fb7e30",
+      "width": 958,
+      "height": 304
+    },
+    {
+      "title": "MemReward: Graph-Based Experience Memory for LLM Reward Prediction with Limited Labels",
+      "asset": "images/papers/memreward.webp",
+      "source": "https://arxiv.org/pdf/2603.19310",
+      "page": 3,
+      "figure_caption": "Figure 2: Overview of MemReward. Rollouts generated by the initial policy are stored as experience\nmemory and organized into a heterogeneous graph for reward prediction. (Left) Warmup Phase: We\nconstruct a heterogeneous graph from labeled rollouts, where query nodes connect via embedding\nsimilarity, and each query links to its thinking and answer nodes. A GNN is trained to predict\nrewards through relational message passing. (Right) Online Phase: During GRPO training, labeled\nrollouts receive ground-truth rewards while unlabeled rollouts connect to the warmup graph via top-k\nsimilarity edges and obtain GNN-predicted rewards.",
+      "crop_pdf_points": [
+        35,
+        59.9991455078125,
+        577,
+        237.0843505859375
+      ],
+      "pdf_sha256": "03899b36d7281e6e093adb23f3b7d6eded1c71a9346a26acd16e224606c3c52a",
+      "width": 816,
+      "height": 343
+    },
+    {
+      "title": "A Survey of Agent Memory in the Second Half: Towards Self-Evolving and Long-Horizon Agents",
+      "asset": "images/papers/a-survey-of-agent-memory-in-the-second-half.webp",
+      "source": "https://arxiv.org/pdf/2602.06052",
+      "page": 4,
+      "figure_caption": "Figure 2: The taxonomy of Foundation Agent Memory. The Memory Substrate (what form is repre-\nsented) for foundation agents includes the internal and external memory (§3.1), where internal memory covers\nweights, latent states, and KV caches (§3.1.2), and external memory covers vector indices, text records, and\nstructural/hierarchical stores (§3.1.1). In the Memory Cognitive Mechanism (how memory functions)\nperspective, memories are categorized into sensory, working, episodic, semantic, and procedural memory (§3.2;\nsee §3.2.1–§3.2.5 for each type). Based on the Memory Subject (who is supported), the memory is\ncharacterized into user-centric and agent-centric perspectives (§3.3).",
+      "crop_pdf_points": [
+        35,
+        69.86669921875,
+        577,
+        423.0859069824219
+      ],
+      "pdf_sha256": "497e95492cb4bd8a8b45f813afabbb1d202c98076fb5f091be316a9b271b46a6",
+      "width": 951,
+      "height": 667
+    },
+    {
+      "title": "MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents",
+      "asset": "images/papers/memskill.webp",
+      "source": "https://arxiv.org/pdf/2602.02474",
+      "page": 4,
+      "figure_caption": "Figure 2. MemSkill architecture overview. Given an interaction trace, MemSkill processes it span by span: the controller selects a\nTop-K subset of skills from a shared skill bank conditioned on the current text span and retrieved memories, and an LLM executor applies\nthe selected skills in one pass to update the trace-specific memory bank. The constructed memory is then evaluated on memory-dependent\ntraining queries to provide task reward for optimizing the controller, while query-centric failures are logged into a sliding hard-case buffer.\nPeriodically, the designer mines representative hard cases to refine existing skills and propose new ones, yielding alternating phases of\nskill usage and skill evolution. More skill case study can be found in Section 4.5 and Appendix C.",
+      "crop_pdf_points": [
+        35,
+        57.0987548828125,
+        577,
+        288.56292724609375
+      ],
+      "pdf_sha256": "07041223cb8447b36132461fb78b08e2adfc5b87aa32f867d206baef92348434",
+      "width": 997,
+      "height": 460
+    },
+    {
+      "title": "BudgetMem: Runtime Agent Memory Framework for Explicit Performance-Cost Control",
+      "asset": "images/papers/budgetmem.webp",
+      "source": "https://arxiv.org/pdf/2602.06025",
+      "page": 4,
+      "figure_caption": "Figure 1. BudgetMem overview. Given a user query q, we retrieve raw chunks Cq from a chunked history (without offline memory prepro-",
+      "crop_pdf_points": [
+        35,
+        56.962646484375,
+        577,
+        260.21630859375
+      ],
+      "pdf_sha256": "727237266e5f8c905f4b3171e6e33d95e702f44fdb82dcf9ee1a04e745311b22",
+      "width": 997,
+      "height": 407
+    },
+    {
+      "title": "Probing the Knowledge Boundary: An Interactive Agentic Framework for Deep Knowledge Extraction",
+      "asset": "images/papers/probing-the-knowledge-boundary.webp",
+      "source": "https://arxiv.org/pdf/2602.00959",
+      "page": 4,
+      "figure_caption": "Figure 1. Overview of the Interactive Agentic Framework. (a) Agentic Exploration Policies actively probe the black-box LLM; the",
+      "crop_pdf_points": [
+        35,
+        70.43919372558594,
+        577,
+        286.89154052734375
+      ],
+      "pdf_sha256": "a82ebe286c8f9710fa01fb31c9b877d5de0e152b9b39c0e2aac74aef9f5a0b43",
+      "width": 895,
+      "height": 412
+    },
+    {
+      "title": "UniRec: Unified Multimodal Encoding for LLM-Based Recommendations",
+      "asset": "images/papers/unirec.webp",
+      "source": "https://arxiv.org/pdf/2601.19423",
+      "page": 4,
+      "figure_caption": "Figure 1: UniRec Model Architecture:\n(a) Item-Level Q-Former: Raw item attributes across heteroge-\nneous modalities (text, categorical, image, numerical) are processed by modality-specific encoders and triplet\nformation. These generate schema-aware attribute embeddings, which are then aggregated by the Item Q-\nFormer to produce a fixed-length item representation (zt). (b) User-Level Q-Former: A user’s chronological\ninteraction history, consisting of learned item tokens (zt), multimodal review contexts (ct), and timestamp\nembeddings (pt), is processed by an Interaction Feature Assembly module. The resulting sequence of com-\nbined interaction embeddings is then distilled by the User Q-Former into a unified user representation (U).\nThe arrow passing the Learned Item Tokens from (a) to (b) explicitly models the nested\nstructure of recommendation signals—where a user’s history is a sequence of items, and each\nitem is a collection of heterogeneous attributes. (c) LLM-Based Recommendation: The learned user\nrepresentation and item representations are projected as soft prompts to condition the LLM for next-item\nprediction, ranking against a corpus of candidate item embeddings.",
+      "crop_pdf_points": [
+        35,
+        69.86102294921875,
+        577,
+        168.18495178222656
+      ],
+      "pdf_sha256": "85431d09f1aeb92118ccc2cdc1da16360e789a5cbebacb41ae79dd77f2ee0fd1",
+      "width": 954,
+      "height": 185
+    },
+    {
+      "title": "FusionFactory: Fusing LLM Capabilities with Multi-LLM Log Data",
+      "asset": "images/papers/fusionfactory.webp",
+      "source": "https://arxiv.org/pdf/2507.10540",
+      "page": 6,
+      "figure_caption": "Figure 4: Overview of FusionFactory via LLMFusionBench across three fusion stages: query-, thought-\n, and model-level, corresponding to early, mid, and late fusion. At the query level, a router selects the best\nLLM per query using performance, cost, and judge scores. At the thought level, a summarizer extracts\nthought templates from top-k responses for few-shot prompting. At the model level, we fine-tune a base\nLLM on high-quality responses to encode fused capabilities.",
+      "crop_pdf_points": [
+        35,
+        281.61627197265625,
+        577,
+        504.265869140625
+      ],
+      "pdf_sha256": "bc18ead94dda84ffac7700afa9c8183cd731b24c6a8de6626574ce088c6012c7",
+      "width": 954,
+      "height": 385
+    },
+    {
+      "title": "Multi-Agent Evolve: LLM Self-Improve through Co-evolution",
+      "asset": "images/papers/multi-agent-evolve.webp",
+      "source": "https://arxiv.org/pdf/2510.23595",
+      "page": 2,
+      "figure_caption": "Figure 1:\nOverview of the Multi-Agent Evolve Framework. Multi-Agent Evolve instantiates\nthree interactive roles (Proposer, Solver, and Judge) from a single LLM to form a closed self-\nimproving loop. The Proposer generates new questions, the Solver attempts to answer them, and\nthe Judge evaluates both to provide general-domain reward signals. The Judge rewards the Solver\nfor accurate reasoning, while the Proposer receives both a quality reward from the Judge and a\ndifficulty reward that increases when the Solver fails, creating an adversarial co-evolution process\nthat continuously enhances the model’s reasoning ability.",
+      "crop_pdf_points": [
+        35,
+        64.65255737304688,
+        577,
+        270.0605163574219
+      ],
+      "pdf_sha256": "6a3e431e0b98d6974fa189b8befab970148d410a9039b21743a0b12c68bce77a",
+      "width": 565,
+      "height": 389
+    },
+    {
+      "title": "GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs",
+      "asset": "images/papers/graphplanner.webp",
+      "source": "https://arxiv.org/pdf/2604.23626",
+      "page": 4,
+      "figure_caption": "Figure 2: Overview of GraphPlanner. In GraphPlanner, each decision step is guided by\nGARNet, which integrates Gworkflow and Ghistory to produce an action that specifies both the LLM\nand the agent role. The resulting trajectories are incrementally incorporated into Gworkflow at each\nstep, while the complete episode trajectory is consolidated into Ghistory at the end of the episode.\nNote that boxes and circles sharing the same color denote a direct mapping relationship.",
+      "crop_pdf_points": [
+        35,
+        43.295928955078125,
+        577,
+        212.53912353515625
+      ],
+      "pdf_sha256": "448c283c0e86a2ab9a273b16fe0d742bc8b089a715e3ad9c0f55c6c4a0b93477",
+      "width": 811,
+      "height": 328
+    },
+    {
+      "title": "GMTRouter: Personalized LLM Router over Multi-turn User Interactions",
+      "asset": "images/papers/gmtrouter.webp",
+      "source": "https://arxiv.org/pdf/2511.08590",
+      "page": 4,
+      "figure_caption": "Figure 3: Overview of GMTRouter. (a) GMTRouter extracts users, LLMs, queries, and responses from the\nInteraction History Table. Query, response, and LLM nodes are initialized with PLM embeddings, while user\nfeedback is encoded as a preference feature on response nodes. (b) It further introduces turn nodes and organizes\nthese entities into a heterogeneous graph to model the relational structure of user–LLM interactions. (c) Within a\nlightweight inductive framework, GMTRouter learns to infer user preferences from few-shot interaction histories.",
+      "crop_pdf_points": [
+        35,
+        52.680419921875,
+        560.2760009765625,
+        332.11944580078125
+      ],
+      "pdf_sha256": "8214ded01888a7a4649e44b308daa11dc6e733bc64e6ed28b10ea57af6342e37",
+      "width": 931,
+      "height": 535
+    },
+    {
+      "title": "PersonalizedRouter: Personalized LLM Routing via Graph-based User Preference Modeling",
+      "asset": "images/papers/personalizedrouter.webp",
+      "source": "https://arxiv.org/pdf/2511.16883",
+      "page": 4,
+      "figure_caption": "Figure 1: Overview of PersonalizedRouter methodology. As shown in the left part, we first utilize the\ncandidate LLMs to generate responses based on the multi-task dataset. Next, under two simulation strategies,\nwe obtain the corresponding interaction data.\nAs illustrated in the middle part, PersonalizedRouter\ntransforms the user interaction data into a graph, where nodes represent the user, task, query, and LLM,\nand the edges capture the relationships between different node types. In the right part, we leverage a GNN\nto embed both node and edge features, updating and capturing the user’s hidden features. Ultimately, we\nselect the optimal LLM from the predicted probability distribution.",
+      "crop_pdf_points": [
+        35,
+        70.1907958984375,
+        577,
+        259.8162536621094
+      ],
+      "pdf_sha256": "e9a57bbda1160e95319727845ce263a549c36031caae7856164134db1d716ce2",
+      "width": 956,
+      "height": 365
+    },
+    {
+      "title": "ResearchArcade: Graph Interface for Academic Tasks",
+      "asset": "images/papers/researcharcade.webp",
+      "source": "https://arxiv.org/pdf/2511.22036",
+      "page": 3,
+      "figure_caption": "Figure 1: RESEARCHARCADE uses a multi-table format with graph structures to collect data\nfrom different sources with multiple modalities. Tables are classified into node tables (colored) or\nedge tables (black and white). The blue (denoting the OpenReview part) or red (denoting the ArXiv\npart) columns represent the unique identification of each node or edge, and the remaining columns\nrepresent the features of the nodes or edges. And the black bold columns are generated by LLM.\nThe conversion from the multiple tables to heterogeneous graphs is straightforward.",
+      "crop_pdf_points": [
+        35,
+        55.324188232421875,
+        577,
+        237.50750732421875
+      ],
+      "pdf_sha256": "3bc05e78a83ab8072457c8645483ade850426f62562701da20867dd1f3770d3c",
+      "width": 815,
+      "height": 333
+    },
+    {
+      "title": "AcademicEval: Live Long-Context LLM Benchmark",
+      "asset": "images/papers/academiceval.webp",
+      "source": "https://arxiv.org/pdf/2510.17725",
+      "page": 5,
+      "figure_caption": "Figure 1: AcademicEval Benchmark. We construct a co-author graph via arXiv and conduct a chrono-\nlogical split on all paper samples (training, validation, and test samples are represented by red, orange, and\ngreen, respectively). Each paper sample is preprocessed into separate sections and can be integrated with\nfew-shot demonstrations from co-author papers.",
+      "crop_pdf_points": [
+        35,
+        72.39608764648438,
+        577,
+        330.87371826171875
+      ],
+      "pdf_sha256": "3573a60c52cc0572d093900f835a06f1ad5736cdd114ea961e45fe68d88b5689",
+      "width": 939,
+      "height": 480
+    },
+    {
+      "title": "Graph World Model",
+      "asset": "images/papers/graph-world-model.webp",
+      "source": "https://arxiv.org/pdf/2507.10539",
+      "page": 5,
+      "figure_caption": "Figure 3. Framework of GWM. For both token-based and embedding-based GFM, we initially unify the multi-modal current state into",
+      "crop_pdf_points": [
+        35,
+        49.44050598144531,
+        577,
+        249.59243774414062
+      ],
+      "pdf_sha256": "d0db4a3f65da3089cdf65aa7a9e25ce946335b0a6e1784d76c76dd1c04a12dcb",
+      "width": 997,
+      "height": 383
+    },
+    {
+      "title": "R1-Ranker: Teaching LLM Rankers to Reason",
+      "asset": "images/papers/r1-ranker.webp",
+      "source": "https://arxiv.org/pdf/2506.21638",
+      "page": 4,
+      "figure_caption": "Figure 2: Framework of our proposed R1-Ranker. Both DRanker and IRanker are RL-enhanced\nLLM frameworks that exploit the reasoning ability of LLMs to solve ranking tasks. They take as\ninput the candidate information in text form, along with user information (such as user history or\na query), and utilize LLM reasoning to produce a final candidate ranking. This ranking is then\nevaluated by an evaluator to generate a corresponding reward signal, which is used to optimize the\ndecision-making of both rankers. The key distinctions are: 1) DRanker performs reasoning once to\ngenerate the full ranking in a single step, whereas IRanker conducts step-wise reasoning by iteratively\nexcluding the least likely item from the candidate pool. 2) The reward in DRanker is a ranking reward\nbased on the final candidate list, while the reward in IRanker is an exclusion reward provided for\neach individual decision, which encourages finer-grained reasoning. 3) DRanker always receives the\nfull set of candidates as input with a fixed size, whereas IRanker’s input candidates are dynamically\nupdated based on the excluded items, enabling adaptive reasoning throughout the ranking process.",
+      "crop_pdf_points": [
+        35,
+        43.236236572265625,
+        577,
+        270.7515869140625
+      ],
+      "pdf_sha256": "b3b53bea949805037e01adef59c3ded58f997bb185c4a0d482a377b486340c3b",
+      "width": 813,
+      "height": 423
+    },
+    {
+      "title": "Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning",
+      "asset": "images/papers/router-r1.webp",
+      "source": "https://arxiv.org/pdf/2506.09033",
+      "page": 4,
+      "figure_caption": "Figure 1: Router-R1 architecture. (a) Single-round Routing: A conventional router assigns each\nquery to a single LLM in isolation via a one-shot decision, without internal reasoning or multi-model\ncoordination. (b) Multi-round Routing (ours): Router-R1 casts multi-LLM routing as a sequential\ndecision process, which leverages an LLM-based router to interleave internal reasoning with external\nLLM routing and integrates retrieved information into its evolving context. This enables adaptive\nmulti-model coordination for complex tasks, surpassing single-round routing with better performance.",
+      "crop_pdf_points": [
+        35,
+        59.997039794921875,
+        577,
+        201.0530548095703
+      ],
+      "pdf_sha256": "178736092d1b93396b3dc0e273e5c90e0ca42f02958516138f47fb3959cdfcc2",
+      "width": 801,
+      "height": 269
+    },
+    {
+      "title": "EPR-GAIL: An EPR-Enhanced Hierarchical Imitation Learning Framework to Simulate Complex User Consumption Behaviors",
+      "asset": "images/papers/epr-gail.webp",
+      "source": "https://arxiv.org/pdf/2503.06392",
+      "page": 3,
+      "figure_caption": "Figure 1: The overall illustration of the EPR-GAIL framework.",
+      "crop_pdf_points": [
+        104,
+        67,
+        505,
+        134
+      ],
+      "pdf_sha256": "467c4aab71d9ab13cd8daf0676fc925a8a9cba8df2a1faa53c30c4eef320fa34",
+      "width": 1197,
+      "height": 197
+    },
+    {
+      "title": "Unified Semantic and ID Representation Learning for Deep Recommenders",
+      "asset": "images/papers/unified-semantic-and-id-representation-learning-for-deep-recommenders.webp",
+      "source": "https://arxiv.org/pdf/2502.16474",
+      "page": 3,
+      "figure_caption": "Figure 2: Framework of the unified semantic and ID representation learning. Firstly, the model integrates both semantic tokens,\nlearned through RQ-VAE, and ID tokens for the recommendation task. Secondly, cosine similarity is applied in the first two\nlayers to decouple accumulated embeddings, while Euclidean distance is utilized in the final layer to effectively distinguish\nunique items. Finally, the overall model is optimized in an end-to-end manner, combining the recommendation loss, RQ-VAE\nquantization loss, and text reconstruction loss.",
+      "crop_pdf_points": [
+        35,
+        71.68673706054688,
+        577,
+        217.45045471191406
+      ],
+      "pdf_sha256": "ea1277a344a3709cec5c1bada0153afc8675ebd6b65310afb469fea3a8b7663d",
+      "width": 781,
+      "height": 241
+    },
+    {
+      "title": "Deep Reinforcement Learning for Demand Driven Services in Logistics and Transportation Systems: A Survey",
+      "asset": "images/papers/deep-reinforcement-learning-for-demand-driven-services-in-logistics-and-transportation-sys.webp",
+      "source": "https://arxiv.org/pdf/2108.04462",
+      "page": 3,
+      "figure_caption": "Fig. 2. The overview of DDS problems, including the dispatching stage and the routing stage. We\ndemonstrate the transformation from originated mathematical formulation to industrial applications\nin the vertical axis, and distinguish the two different planning stages in the horizontal axis. Note that\nthe two stages are not rigidly separated, but such a classification is necessary to concentrate on\nprimary challenges in different practical scenarios. A low demand/worker ratio implies that the primary\nchallenge is to determine how workers and demands should be matched, while a large one indicates\nthat the major optimization space lies in the routing stage. We will discuss such a relationship in\ndetails in Sec 2.3. CVRP here refers to the capacitated vehicle routing problems with four common\nvariants below, which will be introduced in detail in Sec 4.",
+      "crop_pdf_points": [
+        44,
+        184,
+        445,
+        376
+      ],
+      "pdf_sha256": "690a67cb975fc3178c727604910781b20e2747d1424da93ffee44d26837a21d9",
+      "width": 892,
+      "height": 576
+    },
+    {
+      "title": "Citing: Large Language Models Create Curriculum for Instruction Tuning",
+      "asset": "images/papers/citing.webp",
+      "source": "https://arxiv.org/pdf/2310.02527",
+      "page": 3,
+      "figure_caption": "Figure 3: An overview of CITING. It mainly includes two parts: Rubric Design from Teacher LLM\nand Curriculum Instruction Tuning for Student LLM. In the first part, the teacher LLM designs the\nrubrics for different types of instruction tasks. In the second part, the teacher LLM teaches the\nstudent LLM to revise its initial response based on the rubric.",
+      "crop_pdf_points": [
+        35,
+        316.06182861328125,
+        577,
+        539.3794555664062
+      ],
+      "pdf_sha256": "13c7e0defa95c5ba0f3b890d501f42c9148341dd79ffd2b82d43fbbe5e2b4d14",
+      "width": 812,
+      "height": 422
+    },
+    {
+      "title": "RDBench: ML Benchmark for Relational Databases",
+      "asset": "images/papers/rdbench.webp",
+      "source": "https://arxiv.org/pdf/2310.16837v1",
+      "page": 2,
+      "figure_caption": "Figure 1: An overview of our proposed benchmark RDBench.",
+      "crop_pdf_points": [
+        70,
+        74,
+        541,
+        187
+      ],
+      "pdf_sha256": "32889eabc366e6754ddf7c8bfdecdc2632fd5e48094e0f0a6829ffaf0bbd5b51",
+      "width": 1394,
+      "height": 338
+    },
+    {
+      "title": "Contact Tracing and Epidemic Intervention via Deep Reinforcement Learning",
+      "asset": "images/papers/contact-tracing-and-epidemic-intervention-via-deep-reinforcement-learning.webp",
+      "source": "https://arxiv.org/pdf/2102.08251",
+      "page": 3,
+      "figure_caption": "Fig. 2. The detailed structure of proposed IDRLECA.",
+      "crop_pdf_points": [
+        28,
+        474.6600341796875,
+        302,
+        628.1451416015625
+      ],
+      "pdf_sha256": "f767685e7e44620452c767135e8a8643aa03b6282722cdca89026cbf124bce68",
+      "width": 513,
+      "height": 281
+    },
+    {
+      "title": "Precise Mobility Intervention for Epidemic Control Using Unobservable Information via Deep Reinforcement Learning",
+      "asset": "images/papers/precise-mobility-intervention-for-epidemic-control-using-unobservable-information-via-deep.webp",
+      "source": "https://fi.ee.tsinghua.edu.cn/public/publications/df7735ea-64c5-11ee-84fe-0242ac120002.pdf",
+      "page": 3,
+      "figure_caption": "Figure 2: Overview of Vehicle. It first obtains the observation\nof individual features as well as relationships from the en-\nvironment. Then, an unobservable information rebuilding\nmodule rebuilds the information of asymptomatic infections\nfrom the observation, thus to facilitate RL’s decision-making.",
+      "crop_pdf_points": [
+        309,
+        71.68611145019531,
+        584,
+        263.8377685546875
+      ],
+      "pdf_sha256": "1c360778f77c1bdcc9f3f3c1150f286ae6779c540a05c7e005d47f1a86cb99ca",
+      "width": 454,
+      "height": 376
+    },
+    {
+      "title": "PREMIUM: LLM Personalization with Individual-level Preference Feedback",
+      "asset": "images/papers/premium.webp",
+      "source": "https://plotbaelish.github.io/assets/img/publication_preview/PREMIUM.png",
+      "figure_caption": "PREMIUM framework figure from coauthor Yihang Sun’s publication preview.",
+      "width": 960,
+      "height": 310
+    }
+  ]
+}
