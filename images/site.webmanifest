@@ -1,0 +1,14 @@
+{
+  "name": "Tao Feng",
+  "short_name": "Tao Feng",
+  "icons": [
+    {
+      "src": "logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "any"
+    }
+  ],
+  "theme_color": "#fefbf5",
+  "background_color": "#fefbf5",
+  "display": "browser"
+}
