@@ -1,0 +1,92 @@
+/* Palette and academic layout adapted from Cheng Qian's homepage. */
+:root { --background-color:#fefbf5; --main-color:#394661; --link-color:#427e3e; --link-color-hover:#292c1f; --secondary-color:#845836; }
+* { box-sizing:border-box; }
+body { margin:0; background:#fff; color:#212529; font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+a { color:var(--link-color); text-decoration:none; }
+a:hover { color:var(--link-color-hover); text-decoration:underline; }
+button,input { font:inherit; }
+button { cursor:pointer; }
+button:focus-visible,a:focus-visible,input:focus-visible { outline:2px solid var(--link-color); outline-offset:4px; }
+[hidden] { display:none !important; }
+.skip-link { position:absolute; top:-100px; left:16px; z-index:10; padding:10px; background:white; }
+.skip-link:focus { top:8px; }
+.main-content { width:66%; min-width:668px; max-width:1080px; margin:auto; }
+#main { padding:45px 30px 15px; margin-bottom:30px; background:var(--background-color); }
+#main-content-container { background:#fff; border-radius:12px; padding:30px 32px 22px; box-shadow:0 2px 8px rgb(0 0 0 / 5%); }
+.profile-row { display:grid; grid-template-columns:220px minmax(0,1fr); gap:25px; align-items:center; }
+.col-avatar { text-align:center; }
+.avatar { width:200px; height:200px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 .3em #eee; }
+.name { color:var(--main-color); font-size:1.85em; font-weight:500; line-height:1.2; margin:0 0 12px; }
+.chinese-name { font-size:.6em; color:#788091; margin-left:10px; font-weight:400; white-space:nowrap; }
+.email { margin:0 0 12px; }
+.col-name > p:last-child { margin-bottom:0; }
+.social-links { display:flex; flex-wrap:wrap; gap:14px; justify-content:center; margin-top:24px; }
+.social-links span { color:#ccc; }
+.content-container { padding:0 30px; }
+section { margin-bottom:32px; }
+.subtitle { color:var(--main-color); font-size:1.5rem; font-weight:500; line-height:1.3; margin:0 0 12px; }
+.news-list { max-height:300px; overflow-y:auto; margin:0; padding-left:20px; font-size:.9rem; scrollbar-color:#c9c4b8 transparent; }
+.news-list li { margin:0 0 9px; padding-left:2px; }
+.news-date { font-weight:600; }
+.research-section p { margin:0 0 12px; }
+.bio-thrusts { padding-left:20px; margin:0 0 16px; }
+.bio-thrusts li { margin-bottom:6px; }
+.publication-heading { display:flex; align-items:baseline; flex-wrap:wrap; gap:10px; }
+.publication-heading .subtitle { margin-bottom:8px; }
+.view-modes { display:flex; flex-wrap:wrap; gap:6px; align-items:baseline; font-size:1rem; }
+.view-modes button,.topic-button { border:0; padding:0; background:transparent; color:var(--link-color); }
+.view-modes button[aria-pressed="true"],.topic-button[aria-pressed="true"] { color:#333; font-weight:600; }
+.view-modes button:hover,.topic-button:hover { text-decoration:underline; }
+.topics { margin:0 0 14px; line-height:1.8; font-size:.94rem; }
+.topics > span { color:var(--secondary-color); }
+.search-row { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin:14px 0 8px; }
+.search-row label { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+#pub-search { width:290px; max-width:100%; padding:7px 11px; border:1px solid #d6d3c9; border-radius:5px; background:#fffdfa; font-size:.9rem; }
+#pub-count,.contribution-note { font-size:.85rem; color:#6c6c6c; }
+.contribution-note { margin:8px 0 20px; }
+.pub-card { display:grid; grid-template-columns:28% minmax(0,1fr); gap:24px; padding:10px 0 22px; }
+.pub-image { display:flex; align-items:flex-start; justify-content:center; padding-top:3px; }
+.pub-image img { width:100%; height:auto; max-height:180px; object-fit:contain; }
+.topic-label { width:100%; min-height:115px; display:grid; place-items:center; text-align:center; padding:20px; border-left:2px solid #c5cbbd; color:var(--main-color); background:#f5f3ea; font-size:.94rem; }
+.pub-card .title { font-size:1rem; line-height:1.4; margin:0 0 5px; font-weight:600; }
+.pub-card .title a { color:var(--main-color); }
+.pub-card .authors { color:#666; font-size:.95rem; line-height:1.45; margin:0 0 6px; }
+.pub-card .authors strong { color:#333; font-weight:600; }
+.pub-card sup { font-size:.72em; }
+.pub-card .info { margin:0; font-size:.94rem; line-height:1.5; }
+.conference { font-weight:600; }
+.group-heading { color:var(--main-color); font-size:1.15rem; font-weight:600; border-bottom:1px solid #dedbd1; padding-bottom:6px; margin:24px 0 14px; }
+.no-results { padding:24px 0; color:#666; }
+.no-results button { background:none; border:0; color:var(--link-color); padding:0; }
+#footer { margin-top:36px; padding:28px 20px; background:white; text-align:center; box-shadow:0 -2px 8px rgb(0 0 0 / 3%); font-size:.85rem; color:#666; }
+#footer p { margin:0; }
+@media (max-width:1000px) {
+ .main-content { width:88%; }
+ .profile-row { grid-template-columns:180px minmax(0,1fr); gap:22px; }
+ .avatar { width:160px; height:160px; }
+}
+@media (max-width:767px) {
+ .main-content { width:100%; min-width:0; }
+ #main { padding:24px 18px 18px; margin-bottom:26px; }
+ #main-content-container { padding:25px 22px 20px; }
+ .profile-row { display:flex; flex-direction:column; gap:22px; }
+ .name,.email { text-align:center; }
+ .name { font-size:1.8rem; }
+ .content-container { padding:0 24px; }
+ .pub-card { grid-template-columns:25% minmax(0,1fr); gap:16px; }
+ .topic-label { padding:12px 8px; min-height:95px; font-size:.8rem; overflow-wrap:anywhere; }
+ .view-modes { font-size:.9rem; }
+}
+@media (max-width:480px) {
+ .pub-card { grid-template-columns:1fr; gap:12px; padding-bottom:28px; }
+ .pub-image { justify-content:flex-start; }
+ .pub-image img { width:auto; max-width:100%; max-height:140px; }
+ .topic-label { min-height:0; width:auto; padding:4px 10px; text-align:left; }
+}
+
+.research-direction { margin: 0 0 16px; }
+.research-direction h3 { color: var(--main-color); font-size: 1rem; font-weight: 600; margin: 0 0 5px; }
+.selection-note { color: #666; font-size: .85rem; margin: 12px 0 6px; }
+
+.figure-link { display: block; width: 100%; }
+.figure-link:hover img { opacity: .9; }
